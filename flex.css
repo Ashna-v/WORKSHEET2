@@ -1,0 +1,48 @@
+.main{
+    height: 800px;
+    background-color: darkkhaki;
+    display: flex;
+    color: orangered;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sub1{
+    height: 100px;
+    width: 300px;
+    background-color: darksalmon;
+    border: 3px solid gray;
+    border-radius: 5px;
+    order: 3;
+}
+
+.sub2{
+    height: 100px;
+    width: 300px;
+    background-color: lightblue;
+    border: 3px solid gray;
+    border-radius: 5px;
+    order: 2;
+    flex-grow: 3;
+
+}
+
+.sub3{
+    height: 100px;
+    width: 500px;
+    background-color: lightseagreen;
+    border: 3px solid gray;
+    border-radius: 5px;
+    order: 1;
+}
+
+.sub4{
+    height: 100px;
+    width: 300px;
+    background-color: lightpink;
+    border: 3px solid gray;
+    border-radius: 5px;
+    order: 0;
+}
